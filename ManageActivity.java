@@ -56,7 +56,7 @@ public class ManageActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), StorageActivity.class).putExtra("Mode", 3));
+                startActivity(new Intent(getApplicationContext(), MainActivity.class).putExtra("Mode", 3));
 
                 Toast.makeText(getApplicationContext(), "Add Recipes", Toast.LENGTH_SHORT).show();
 

@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.move_button).setOnClickListener(new View.OnClickListener() {
             @Override            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), ManageActivity.class).putExtra("Mode", 3));
+                startActivity(new Intent(getApplicationContext(), StorageActivity.class).putExtra("Mode", 3));
 
                 Toast.makeText(getApplicationContext(), "welcome to Cooking_Recipes App", Toast.LENGTH_SHORT).show();
             }
