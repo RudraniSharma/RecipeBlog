@@ -57,7 +57,7 @@ public class ManageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class).putExtra("Mode", 3));
-
+                //test
                 Toast.makeText(getApplicationContext(), "Add Recipes", Toast.LENGTH_SHORT).show();
 
             }
